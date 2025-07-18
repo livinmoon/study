@@ -1,7 +1,7 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
 // icon-color: deep-brown; icon-glyph: phone-square;
-// Author: wuhu.
+// Author: livinmoon
 // 该脚本小尺寸组件支持两种模式，默认为圆环进度条模式，主屏幕长按小组件-->编辑小组件-->Parameter，输入1，使用文字模式
 // 渐变进度条为试验性功能，默认关闭
 
@@ -13,8 +13,8 @@ class Widget extends DmYY {
     super(arg);
     this.name = '中国广电';
     this.en = 'ChinaBroadnet';
-    this.logo = 'https://github.com/wuhuhuuuu/study/raw/main/Scriptable/src/ChinaBroadnet.Medium.png';
-    this.verticalLogo = 'https://github.com/wuhuhuuuu/study/raw/main/Scriptable/src/ChinaBroadnet.Small.png';
+    this.logo = 'https://github.com/livinmoon/study/raw/main/Scriptable/src/ChinaBroadnet.medium.png';
+    this.verticalLogo = 'https://github.com/livinmoon/study/raw/main/Scriptable/src/ChinaBroadnet.small.png';
     this.Run();
   }
 
@@ -455,8 +455,8 @@ tempStack2.addSpacer()
   Run() {
     if (config.runsInApp) {
       const widgetInitConfig = {
-        access: '@wuhuhu.ChinaBroadnet.access',
-        body: '@wuhuhu.ChinaBroadnet.body'
+        access: '@livinmoon.ChinaBroadnet.access',
+        body: '@livinmoon.ChinaBroadnet.body'
       };
       this.registerAction('颜色配置', async () => {
         await this.setAlertInput(

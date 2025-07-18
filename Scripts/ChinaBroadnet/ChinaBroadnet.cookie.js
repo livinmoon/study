@@ -1,7 +1,7 @@
-const $ = new Env('wuhuhu.ChinaBroadnet')
-$.KEY_url = '@wuhuhu.ChinaBroadnet.url'
-$.KEY_access = '@wuhuhu.ChinaBroadnet.access'
-$.KEY_body = '@wuhuhu.ChinaBroadnet.body'
+const $ = new Env('livinmoon.ChinaBroadnet')
+$.KEY_url = '@livinmoon.ChinaBroadnet.url'
+$.KEY_access = '@livinmoon.ChinaBroadnet.access'
+$.KEY_body = '@livinmoon.ChinaBroadnet.body'
 
 !(async () => {
   const url = $request.url

@@ -7,8 +7,8 @@
 hostname = wx.10099.com.cn
 
 [Script]
-ChinaBroadnet.cookie = type=http-request,pattern=https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo,requires-body=1,max-size=0,script-path=https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js,script-update-interval=0
-ChinaBroadnet = type=cron,cronexp=3 0 * * *,script-path=https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.js,wake-system=1,script-update-interval=0
+ChinaBroadnet.cookie = type=http-request,pattern=https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo,requires-body=1,max-size=0,script-path=https://github.com/livinmoon/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js,script-update-interval=0
+ChinaBroadnet = type=cron,cronexp=3 0 * * *,script-path=https://github.com/livinmoon/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.js,wake-system=1,script-update-interval=0
 ```
 ```properties
 Panel 配置
@@ -17,7 +17,7 @@ Panel 配置
 ChinaBroadnet = script-name=ChinaBroadnet.Panel,update-interval=3600
 
 [Script]
-ChinaBroadnet.Panel = type=generic,script-path=https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.panel.js
+ChinaBroadnet.Panel = type=generic,script-path=https://github.com/livinmoon/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.panel.js
 ```
 ## 配置（Loon）
 
@@ -26,8 +26,8 @@ ChinaBroadnet.Panel = type=generic,script-path=https://github.com/wuhuhuuuu/stud
 hostname = wx.10099.com.cn
 
 [Script]
-http-request https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo script-path=https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js, requires-body=true, timeout=10, tag=ChinaBroadnet.cookie, img-url=https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.png
-cron "3 0 * * *" script-path=https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.js, timeout=10, tag=ChinaBroadnet, img-url=https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.png
+http-request https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo script-path=https://github.com/livinmoon/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js, requires-body=true, timeout=10, tag=ChinaBroadnet.cookie, img-url=https://github.com/livinmoon/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.png
+cron "3 0 * * *" script-path=https://github.com/livinmoon/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.js, timeout=10, tag=ChinaBroadnet, img-url=https://github.com/livinmoon/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.png
 ```
 ## 配置 (QuanX)
 
@@ -36,10 +36,10 @@ cron "3 0 * * *" script-path=https://github.com/wuhuhuuuu/study/raw/main/Scripts
 hostname = wx.10099.com.cn
 
 [rewrite_local]
-https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo url script-request-body https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js
+https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo url script-request-body https://github.com/livinmoon/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js
 
 [task_local]
-3 0 * * * https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.js, tag=ChinaBroadnet, img-url=https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.png
+3 0 * * * https://github.com/livinmoon/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.js, tag=ChinaBroadnet, img-url=https://github.com/livinmoon/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.png
 ```
 
 ## 说明

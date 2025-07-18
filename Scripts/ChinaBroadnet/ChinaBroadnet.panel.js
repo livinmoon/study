@@ -1,7 +1,7 @@
-const $ = new Env('wuhuhu.ChinaBroadnet')
-$.KEY_url = '@wuhuhu.ChinaBroadnet.url'
-$.KEY_access = '@wuhuhu.ChinaBroadnet.access'
-$.KEY_body = '@wuhuhu.ChinaBroadnet.body'
+const $ = new Env('livinmoon.ChinaBroadnet')
+$.KEY_url = '@livinmoon.ChinaBroadnet.url'
+$.KEY_access = '@livinmoon.ChinaBroadnet.access'
+$.KEY_body = '@livinmoon.ChinaBroadnet.body'
 
 !(async () => {
   await login()
@@ -44,9 +44,9 @@ function showmsg() {
       const fee = $.Info.data.userData.fee/100
       const flow = ($.Info.data.userData.flow/1048576).toFixed(2)
 			const voice = $.Info.data.userData.voice
-			$done({title: "10099",
+			$done({title: "中国广电",
 				content: `📲  剩余话费：${fee} 元\n\n` + `🌐  剩余流量：${flow} GB\n\n`+ `📞  剩余语音：${voice} 分钟`})
-    } else $done({title: "10099",
+    } else $done({title: "中国广电",
 			content: "Cookie已过期，请重新获取！！"})
     resolve()
   })
