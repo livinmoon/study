@@ -1,0 +1,4 @@
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spotifycdn.com
+DOMAIN-SUFFIX,tospotify.com
+DOMAIN-SUFFIX,scdn.co
