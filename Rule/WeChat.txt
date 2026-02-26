@@ -1,1 +1,2 @@
 DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,weixin.qq.com
