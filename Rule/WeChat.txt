@@ -1,2 +1,3 @@
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,marscdnbypass-wxapp.tc.qq.com
