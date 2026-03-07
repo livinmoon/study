@@ -1,0 +1,2 @@
+DOMAIN-SUFFIX,bybit.eu
+DOMAIN-SUFFIX,bycsi.com
